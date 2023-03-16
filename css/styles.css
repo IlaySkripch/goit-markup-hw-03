@@ -213,7 +213,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-top: 32px;
+  padding-top: 32px;
 }
 .team-position {
   line-height: 24px;
@@ -293,7 +293,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-top: 32px;
+  padding-top: 32px;
 }
 .gallery-text {
   font-weight: 400;
@@ -302,9 +302,10 @@ address {
   color: var(--slate);
 }
 .cards {
-  padding-top: none;
+  
   padding-bottom: 30px;
   border: 1px solid var(--cornflower);
   background-color: var(--white);
   text-align: center;
+  border-top: none;
 }
